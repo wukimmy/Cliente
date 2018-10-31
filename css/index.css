@@ -26,23 +26,26 @@ body {
     font-size: 1.4em;
   }
   input {
+    color:rgb(24, 19, 19);
     margin-bottom:10px;
   }
   textarea {
+    color:rgb(24, 19, 19);
     height:100px;
     margin-bottom:10px;
   }
   input:first-of-type
   {
+    color:rgb(24, 19, 19);
     margin-top:35px;
   }
   input, textarea {
     font-size: 1em;
     padding: 15px 10px 10px;
     font-family: 'Source Sans Pro',arial,sans-serif;
-    border: 1px solid #cecece;
-    background: #d7d7d7;
-    color:#FAFAFA;
+    border: 1px solid #ffffff;
+    background: #ddd7d7;
+    color:rgb(24, 19, 19);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -59,10 +62,10 @@ body {
      color: #1b2c26;
   }
   :-moz-placeholder {
-     color: #FAFAFA;  
+     color: rgb(12, 11, 11);  
   }
   ::-moz-placeholder {
-     color: #FAFAFA; 
+     color: rgb(29, 27, 27); 
   }
   :-ms-input-placeholder {  
      color: #1b2c26;  
