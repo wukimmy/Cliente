@@ -13,7 +13,7 @@
   <a class="active" href="index.html">Cadastro</a>
   <a href="#news">Editar</a>
   <a href="#contact">Listar</a>
-  <a href="#about">Excluir</a>
+  <a href="./lista_excluir">Excluir</a>
 </div>
 <form method = "post" action="gravar.php">
   <div class="container">
