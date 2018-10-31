@@ -10,15 +10,14 @@
     </head>
     <body>
         <div class="topnav">
-            <a href="index.html">Cadastro</a>
+            <a href="index.php">Cadastro</a>
             <a href="./lista_altera">Editar</a>
             <a href="./listagem">Listar</a>
             <a class="active" href="./lista_excluir">Excluir</a>
 		</div>
-		<div class="container">
-			<table> 
-				<h2>Escolha para fazer a exclusão</h2>
-				<ul>
+		<div class="container"> 
+			<h2>Escolha para fazer a exclusão</h2>
+			<ul>
 				<?php
 					include "conexao.php";
 					$consulta = "select * from cliente";
@@ -35,9 +34,7 @@
 						}
 					}
 				?>
-				</ul>
-			</table>															
-		
+			</ul>														
 		</div>												
     </body>
 </html>
