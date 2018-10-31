@@ -8,4 +8,8 @@ Para o projeto criei um banco de dados MySql, com o nome dbcliente, com uma úni
 
 *Observe que a porta do MySql foi alterada para :3303
 
-# 2. 
+# 2. Servidor
+Para rodar local basta colocar a pasta do projeto no local recomendado. e.g.
+wamp: 	c:\wamp\www
+xamp:		c:\xamp\htdocs
+
