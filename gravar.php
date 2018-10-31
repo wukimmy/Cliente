@@ -6,9 +6,16 @@
 	<title>Gravar</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="./css/default.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/nav.css" />
 	<script src="main.js"></script>
 </head>
 <body>
+<div class="topnav">
+  <a class="active" href="index.html">Cadastro</a>
+  <a href="./lista_altera">Editar</a>
+  <a href="./listagem">Listar</a>
+  <a href="./lista_excluir">Excluir</a>
+</div>
 <div class="container">
 
 <?php

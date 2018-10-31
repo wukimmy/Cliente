@@ -27,7 +27,11 @@ button {
   }
   button:hover, .button:hover {
     background:#19a08c;
-  }  
+}
+li{
+    background-color: #1b2c26;
+    color: #FAFAFA;
+}
   
 
   

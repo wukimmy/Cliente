@@ -10,7 +10,7 @@
 	{
 		$banco = mysqli_select_db($conexao,$banco);
 		if($banco != null)
-			echo "banco ok<br><br>";
+			echo "<br>";
 	}
 ?>
 

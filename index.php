@@ -11,8 +11,8 @@
 <body>
 <div class="topnav">
   <a class="active" href="index.html">Cadastro</a>
-  <a href="#news">Editar</a>
-  <a href="#contact">Listar</a>
+  <a href="./lista_altera">Editar</a>
+  <a href="./listagem">Listar</a>
   <a href="./lista_excluir">Excluir</a>
 </div>
 <form method = "post" action="gravar.php">
