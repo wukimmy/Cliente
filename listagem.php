@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="topnav">
-            <a href="index.html">Cadastro</a>
+            <a href="index.php">Cadastro</a>
             <a href="./lista_altera">Editar</a>
             <a class="active" href="./listagem">Listar</a>
             <a href="./lista_excluir">Excluir</a>
