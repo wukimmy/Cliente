@@ -1,15 +1,16 @@
 <?php
-	$servidor = “localhost”;
-	$login = “root”;
-	$senha = “”;
-	$banco = “nomeBanco”;
+	$servidor = "localhost";
+	$login = "root";
+	$senha = "";
+	$banco = "dbCliente";
 
-	$conexao = mysql_connect($servidor, $login, $senha);
+	$conexao = mysqli_connect('127.0.0.1:3303', 'root', '');
 
 	if($conexao != null)
 	{
-		$banco = mysql_select_db($banco);
+		$banco = mysqli_select_db($conexao,$banco);
 		if($banco != null)
 			echo "banco ok<br><br>";
 	}
 ?>
+

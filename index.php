@@ -15,7 +15,7 @@
   <a href="#contact">Listar</a>
   <a href="#about">Excluir</a>
 </div>
-<form id="contact">
+<form method = "post" action="gravar.php">
   <div class="container">
     <div class="head">
       <h2>Cadastro</h2>
